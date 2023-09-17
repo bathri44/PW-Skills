@@ -1,0 +1,3 @@
+The main purpose of the comment is to remove the rendering of the content
+
+To comment an element we use ctrl+/ in Vs code, so that element or line or block will be commented.

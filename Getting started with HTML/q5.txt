@@ -1,0 +1,2 @@
+Doctype delaration will declare that what is type of the document.
+The <!DOCTYPE html> declaration defines that this document is an HTML document

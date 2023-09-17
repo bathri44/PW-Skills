@@ -1,0 +1,4 @@
+Tags are like keywords in the html and a tag always should be opened and closed.
+
+Elements are defined by start tag, followed by some content and close tag.
+Eg. <h1>Hello world</h1> is an element, where <h1> & </h1> are tags and "Hello world" is the content.
