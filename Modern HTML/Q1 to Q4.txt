@@ -1,0 +1,27 @@
+1. Features of HTMl 5
+	> It has new semantic elements.
+	> These elements icludes some accessibility, APIS, canvas,navigatio(<nav>) etc.
+	> These new sematic elements makes life little bit easier.
+
+2.HTML Entities
+	>HTML entities are some codes that renders some special symbols or characters like emoji, dollor symbol, copy right logo etc
+ Example:
+	>  &copy gives copyright symbol
+	>  &gt gives greater than
+	>  &lt gives lesser than
+	>  &reg gives trademark
+	>  &euro gives euro symbol
+
+3. Accessibility
+	> Accesibililty defines the way of designing the website that are easily accessible especially to differently abled persons. Or simply usable and acccessble for everyonne.
+Eg.
+	> Provoding screen readers, adding description to images for visually impaired.
+	> designing simply for elders
+	> proper layouts for mobile users
+	> providing subtitles for hearing impaired
+
+4. 3 ways to improve accessibility
+	> Adding description for images using alt tag
+	> Adding labels.
+	> Can use ARIA tag
+
