@@ -1,0 +1,4 @@
+5.Favicon
+	> A favicon is a small image displayed next to the page title in the browser tab.
+
+	Eg.<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">

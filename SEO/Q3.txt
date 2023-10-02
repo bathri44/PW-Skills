@@ -1,0 +1,5 @@
+3.Beneifits of Meta tags
+
+> Meta tags will improve the SEO i.e use of some tags increases the visibility of the websites
+> It improves the traffic and engagement of the viewers
+> Meta tags specifies the encoding format for the browsers to understand eg.(UTF-8)
