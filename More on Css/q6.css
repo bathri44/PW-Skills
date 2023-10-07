@@ -1,0 +1,10 @@
+.container{
+   margin: 80px;
+   
+}
+.container .head h1{
+    text-align: center;
+}
+.container .image img{
+    width: 100%;
+}

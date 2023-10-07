@@ -1,0 +1,21 @@
+.card{
+    background-color: aqua;
+    width: 500px;
+    height: 375px;
+    border-radius: 5%;
+   
+}
+.card img{
+    width: 450px;
+    height: auto;
+    padding: 25px;
+    padding-bottom: 0px;
+    
+}
+.content{
+    padding: 25px;
+    padding-top: 10px;
+}
+.card :hover{
+    opacity: 0.4;
+}

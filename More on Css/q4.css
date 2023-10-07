@@ -1,0 +1,14 @@
+.image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+}
+.image .kamal{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}

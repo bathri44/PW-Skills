@@ -1,0 +1,52 @@
+.navbar{
+    text-align: center;
+    background-color: coral;
+    height: 50px;
+    margin: 20px;
+    border: 5px;
+    border-style: double;
+    border-color: black;
+    border-radius: 12%;   
+}
+.navbar .contents{
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;   
+}
+.navbar .contents .c1{
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+   
+}
+.navbar .contents .c2{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+   
+}
+.navbar .contents .c3{
+    border: 1px;
+    border-color: black;
+    border-style: ridge;
+   
+}
+.navbar .contents .c4{
+    border: 1px;
+    border-color: black;
+    border-style: double;
+   
+}
+.navbar .contents .c5{
+    border: 1px;
+    border-color: black;
+    border-style: dotted;
+   
+}
+.navbar .contents :hover{
+    background-color: blueviolet;
+}
+.navbar a{
+    color: white;
+}
