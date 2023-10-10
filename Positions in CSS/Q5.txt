@@ -1,0 +1,18 @@
+Z-Index:
+	It defines the stack order of the elemrnt. The more the value it will positioned front. It works on positioned and flex 
+elements.
+
+Eg.
+
+<body>
+	<img URL>
+	<p>ohckoajfkjaskldfjsajdf;l</p>
+</body>
+<style>
+img{
+position: relative
+z-index: -1;
+}
+</style>
+
+ In this case Image will be rendered behind the paragraph since it is less than para's index

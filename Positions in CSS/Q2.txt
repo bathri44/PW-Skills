@@ -1,0 +1,6 @@
+Relative:
+	It means an element is positioned relative to its normal position in the document flow.It can be shifted on any sides
+without affecting the position of other elements.
+
+Absolute:
+	Positions the element relative to its nearest ancestor(except static) or initial block. It will overlap othet elements.
