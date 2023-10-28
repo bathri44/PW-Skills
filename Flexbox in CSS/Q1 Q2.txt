@@ -1,0 +1,20 @@
+Q1.Flexbox:
+	It is used for one dimensional layouts. Either in arranging roe or a column. Used for flexible
+and if size of the item is unknown. It works along single axis only. Can be used for menus, buttons and
+navigation elements.
+
+Grid:
+	It is suitable for 2 dimensional layouts i.e arranging rows and columns simultaneously.It is used 
+for complex designs such as website layouts, headers, footers etc.
+
+
+Q2.
+
+Justify content: It is used to aling the content along with the main-axis. We can give values such as Flex-starrt, Flex-end, center etc to control the positions of the flex items.
+
+Align-Items: It is used to align content perpendicular to the main axis. We can give values such as Flex-starrt, Flex-end, center etc to control the positions of the flex items.
+
+
+
+
+

@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricingsection{
+    width: 970px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: lavender;
+    height: 500px;
+    padding: 50px;
+    gap: 20px;
+}
+.card1{
+    width: 250px;
+    background-color: white;
+    border-radius: 7px;
+    padding-left: 35px;
+    
+}
+.card2{
+    width: 250px;
+    background-color: #202842;;
+    border-radius: 7px;
+    padding-left: 35px;
+    color: white;
+}
+.card3{
+    width: 250px;
+    background-color: white;
+    border-radius: 7px;
+    padding-left: 35px;
+    
+}
+.subnow{
+    display: flex;
+    justify-content: center;
+    margin-left: -35px;
+}
+.subbutton{
+    background-color: #202842;
+    color: white;
+    border-color: transparent;
+    border-radius: 24px;
+    padding: 5px 17px;
+}
+.subbutton1{
+    border-radius: 24px;
+    padding: 5px 17px;
+}
