@@ -14,6 +14,11 @@ Justify content: It is used to aling the content along with the main-axis. We ca
 
 Align-Items: It is used to align content perpendicular to the main axis. We can give values such as Flex-starrt, Flex-end, center etc to control the positions of the flex items.
 
+Gap: It applies gap between the items inside the flex.
+
+Flex-direction: It determines the direction of the flex items
+
+Wrap: When items wont fit along the axis, it can be used to created new row or column
 
 
 
