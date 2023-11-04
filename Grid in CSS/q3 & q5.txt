@@ -1,0 +1,66 @@
+3.use of grid-auto-row and grid-auto-column
+	When column or rows created without any pre defined rows or colum these two will create or generate rows or columns depending on the
+content.
+
+Eg.
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-auto-rows: 50px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid darkblue;         It will generate rows based on contenetr
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-auto-columns: 50px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid darkblue;        It will generate columns
+}
+
+
+
+
+q5.the difference between justify-items and justify-self
+
+	justify-items sets the default horizontal alignment for all grid items within the grid container.
+justify-self allows you to individually override the horizontal alignment of a specific grid item within the container.
+
+Eg.
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: center; 				Center-aligns all grid items horizontally
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid darkblue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: start; /* Default horizontal alignment for all grid items */
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid darkblue;
+  justify-self: end; 					Right-aligns this specific grid item
+}
+
+
+
+
+
+
+
