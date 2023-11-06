@@ -1,0 +1,30 @@
+nav a{
+    color: red;
+    text-decoration: none;
+}
+nav > h2{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 3px;
+}
+nav > p:first-of-type{
+    color: red;
+}
+a[class="active"]{
+    color: blue;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: grey;
+}
+p:last-child::after{
+    content: "...";
+}
+li::marker{
+    color: blue;
+}
+body > header > nav > p:nth-of-type(2)::first-letter {
+    color: red;
+    font-size: 30px;
+}

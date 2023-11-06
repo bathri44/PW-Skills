@@ -1,0 +1,14 @@
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+ul > li {
+   display: inline;
+}
+
+li + li {
+    padding: 10px;
+}
+nav{
+    text-align: center;
+}
