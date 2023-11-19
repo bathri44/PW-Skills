@@ -1,0 +1,15 @@
+button{
+    padding: 10px;
+    color: white;
+    border: none;
+}
+:root{
+    --primarycolor: #00b7ff;
+    --secondarycolor: #6c757d;
+}
+#primarybtn{
+    background-color: var(--primarycolor);
+}
+#secondarybtn{
+    background-color: var(--secondarycolor);
+}
