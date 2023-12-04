@@ -1,0 +1,71 @@
+1. The role of operators in JavaScript is essential for building expressions and statements that manipulate data, perform calculations, and make decisions. Some of the use cases are Performing Operations, Building Expressions, Assigning Values, String Concatenation etc.
+
+2. Arithmetic Operators:
+Perform mathematical calculations on numeric values.
+
+
+let a = 10;
+let b = 5;
+
+let sum = a + b;      // Addition
+let difference = a - b; // Subtraction
+let product = a * b;   // Multiplication
+let quotient = a / b;  // Division
+let remainder = a % b; // Modulus (remainder)
+2. Comparison Operators:
+Compare values and return Boolean results.
+
+
+let x = 10;
+let y = 5;
+
+let isEqual = x === y;    // Strict equality
+let isNotEqual = x !== y;  // Strict inequality
+let isGreaterThan = x > y; // Greater than
+let isLessThan = x < y;    // Less than
+let isGreaterOrEqual = x >= y; // Greater than or equal
+let isLessOrEqual = x <= y;    // Less than or equal
+3. Logical Operators:
+Combine or manipulate Boolean values.
+
+let isTrue = true;
+let isFalse = false;
+
+let andResult = isTrue && isFalse; // Logical AND
+let orResult = isTrue || isFalse;  // Logical OR
+let notResult = !isTrue;           // Logical NOT
+4. Assignment Operators:
+Assign values to variables.
+
+let a = 10;
+
+a += 5;  // Equivalent to a = a + 5; (Add and assign)
+a -= 3;  // Equivalent to a = a - 3; (Subtract and assign)
+a *= 2;  // Equivalent to a = a * 2; (Multiply and assign)
+a /= 4;  // Equivalent to a = a / 4; (Divide and assign)
+5. Unary Operators:
+Operate on a single operand.
+javascript
+Copy code
+let num = 5;
+
+num++;  // Increment by 1 (Post-increment)
+++num;  // Increment by 1 (Pre-increment)
+num--;  // Decrement by 1 (Post-decrement)
+--num;  // Decrement by 1 (Pre-decrement)
+
+4.Operator precedence defines the order in which different operators are evaluated in an expression. Operators with higher precedence are evaluated first.
+
+Example:
+
+let result = 5 + 2 * 3;
+In this example, the multiplication operator (*) has higher precedence than the addition operator (+). So, 2 * 3 is evaluated first, resulting in 6, and then 5 + 6 is evaluated to give the final result of 11.
+
+Common Operators and Precedence:
+
+Multiplication, Division, Modulus: *, /, %
+Addition, Subtraction: +, -
+Comparison Operators: <, >, <=, >=, ==, !==
+Logical AND: &&
+Logical OR: ||
+Assignment Operators: =, +=, -=, *=, /=
