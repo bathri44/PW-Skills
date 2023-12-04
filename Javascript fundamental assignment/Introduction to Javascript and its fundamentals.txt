@@ -1,0 +1,34 @@
+1.Java script is used to make web pages more dynamic by enabling client-side interactivity, meaning it allows actions to be performed directly in the user's web browser without needing to reload the entire page from the server
+
+2. HTMl gives structure and content of the website. JS provides dynamic behaviour and interactivity.
+	Eg. HTML provides structure, content and video embedding.
+	    JS provides Carousel, image sliders and takes user inputs in forms.
+
+3.String: Strings represent sequences of characters and are used to store text. They are enclosed in single (') or double (") quotes.
+  Numbers: It represent numeric values, and they can be integers or floating-point numbers.
+  Booleans: It represent logical values. They can only have two values: true or false.
+  undefined: It represents a variable that has been declared but has not been assigned a value. It is also the default value of function parameters that are not provided.
+  null: It represents the intentional absence of any object value. It is often used to indicate that a variable or object does not have a value.
+
+4.Declaring variables allow us to store and manipulate the data.
+ Eg. Let a;
+     a=1;
+here a variable called 'a' is declared using keyword 'let' and a value of 1 is assigned to 'a'.
+
+5.JavaScript serve as annotations within the code to provide explanations, documentation, or clarifications. They are ignored by the JavaScript interpreter and don't affect the execution of the program.
+ 
+eg.// This is a single-line comment
+
+let x = 5; // Initializing a variable
+
+
+/*
+   This is a multi-line comment.
+   It provides detailed information about
+   the purpose of the code or a specific block.
+*/
+
+let y = 10; // Another variable
+
+6. It significantly contributes to the readability and maintainability of your code. When working in a team, using clear and descriptive variable names facilitates effective collaboration. It minimizes the chances of misinterpretation and promotes a shared understanding of the codebase among team members.
+ Meaningful variable names reduce the likelihood of introducing bugs or errors during coding and debugging. When variables are named according to their purpose, it becomes less likely to misuse or misinterpret them in the code
