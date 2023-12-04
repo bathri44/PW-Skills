@@ -1,0 +1,15 @@
+1 The ternary operator is a shorthand way of writing an if-else statement in a single line. 
+
+eg. odd or even
+	let number=3;
+	(number % 2 === 0) ? `${number} is even.` : `${number} is odd.`;
+
+
+2. comma is used to evaluate multiple expressions within a single statement.
+
+eg. let a,b,c:
+    a = 1, b = 2, c = 3;
+    console.log(a, b, c);
+
+
+	
