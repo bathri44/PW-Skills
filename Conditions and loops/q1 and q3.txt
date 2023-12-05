@@ -1,0 +1,67 @@
+1. they enable a program to make decisions and perform different actions depending on the given conditions.
+eg. If Statement:
+
+let x = 10;
+if (x > 5) {
+    console.log("x is greater than 5");
+}
+
+If-Else Statement:
+
+
+let age = 20;
+if (age >= 18) {
+    console.log("You are an adult");
+} else {
+    console.log("You are a minor");
+}
+
+3. Loops are control flow structures in programming that allow a set of instructions to be repeatedly executed as long as a certain condition is true.
+For Loop:
+
+Syntax:
+
+javascript
+Copy code
+for (initialization; condition; increment/decrement) {
+    // Code to be executed in each iteration
+}
+Example:
+
+javascript
+Copy code
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+While Loop:
+
+Syntax:
+
+javascript
+Copy code
+while (condition) {
+    // Code to be executed as long as the condition is true
+}
+Example:
+
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+Do-While Loop:
+
+Syntax:
+
+
+do {
+    // Code to be executed at least once, and then repeated as long as the condition is true
+} while (condition);
+Example:
+
+
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
